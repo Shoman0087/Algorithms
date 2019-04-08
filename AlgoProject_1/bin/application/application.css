@@ -1,0 +1,51 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#root {
+	-fx-background-image: url("background.jpg");
+}
+
+#topBox {
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	/*-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,230,204) 0.0, rgb(255,204,179) 100.0 );
+	  */
+	 
+}
+.text {
+	-fx-font-family: Tahoma, Geneva, sans-serif;
+	/*-fx-font-size: 14px;*/
+	-fx-font-weight: bold;
+}
+
+#center .label {
+	
+/*	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,204,255) 0.0, rgb(255,255,179) 100.0 )
+*/
+	-fx-font-size: 20px;
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(179,204,255) 0.0, rgb(51,51,51) 100.0);
+	-fx-font-weight: bold;
+	
+}
+
+.text-field {
+	-fx-opacity: 0.8;
+	-fx-background-radius: 10;
+}
+
+
+
+.button {
+
+    -fx-background-color: 
+        linear-gradient(#FFE4C4, #FFF8DC),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-opacity: 0.8;
+    
+
+}
